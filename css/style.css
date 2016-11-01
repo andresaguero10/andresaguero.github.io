@@ -1,6 +1,12 @@
-body {
-	background-color:#000;
+p {
+    font-family: 'GalanoClassic-ExtraLight', Verdana;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'GalanoClassic-ExtraBold', Verdana;
+    color:#431A94;
+}
+
 .message-me {
 	width: 150px;
     margin: 0 auto;
@@ -12,3 +18,94 @@ body {
 	height: 6px;
 	width: 100%
 }
+
+.illustrations {
+	width:75px;
+}
+
+
+article {
+	margin: 0 auto;
+	max-width:460px;
+}
+
+figure {
+	margin: 0 auto;
+	max-width:150px;
+}
+
+figure img {
+	width:100%;
+}
+
+.main-wrap {
+    background: #e0ebe8;
+    color: #545454;
+    text-shadow: none;
+}
+
+.im-andres {
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+    color: #45b29a;  
+    font-size:4em;  
+}
+
+.header-desc {
+    text-align: center;
+    color: #45b29a;
+    padding: 1em 0;
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+.header-logo {
+	width:100px;
+}
+.nav-top {
+    background: #E0EBE8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+
+}
+.top-nav {
+    display:block;
+}
+
+.top-nav ul {
+	position: relative;
+    float:right;
+    padding-top: 1.5em;
+    padding-left: 0;
+}
+
+.top-nav ul li {
+	display:block;
+    float:left;
+}
+
+.top-nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #45b29a;
+    font-weight: 400;
+    margin: 0 0 0 3em;
+    font-size: 120%;
+}
+
+/* create a::hover for menu */
+
+
+
+
+
+
+
+
+
+
