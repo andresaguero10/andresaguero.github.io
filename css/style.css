@@ -79,11 +79,12 @@ figure img {
 }
 
 .im-andres {
-    font-weight: 500;
     line-height: 1.1;
     text-align: center;
     color: #431A94;  
-    font-size:4em;  
+    font-size:5em;  
+font-family: 'Yellowtail', cursive;
+
 }
 
 .header-desc {
@@ -92,6 +93,7 @@ figure img {
     padding: 1em 0;
     font-size: 1.8em;
     font-weight: 400;
+    font-family: 'Raleway';
 }
 
 .header-logo {
@@ -230,7 +232,6 @@ ul.footer li {
 .top-nav ul li a {
     display: inline-block;
     text-decoration: none;
-    color: #45b29a;
     font-weight: 400;
     margin: 0 0 0 1em;
     font-size: 100%;
