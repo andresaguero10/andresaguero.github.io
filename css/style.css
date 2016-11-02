@@ -48,9 +48,15 @@ a{
 }
 
 .illustrations {
-	max-width:170px;
+    max-width: 263px;
+  
 }
+.dev-illustration {
+    max-width: 400px;
+    margin-left: -30px;   
+  
 
+}
 
 article {
 	margin: 0 auto;
@@ -76,13 +82,13 @@ figure img {
     font-weight: 500;
     line-height: 1.1;
     text-align: center;
-    color: #45b29a;  
+    color: #431A94;  
     font-size:4em;  
 }
 
 .header-desc {
     text-align: center;
-    color: #45b29a;
+    color: #431A94;
     padding: 1em 0;
     font-size: 1.8em;
     font-weight: 400;
@@ -118,7 +124,7 @@ figure img {
 .top-nav ul li a {
     display: inline-block;
     text-decoration: none;
-    color: #45b29a;
+    color: #431A94;
     font-weight: 400;
     margin: 0 0 0 3em;
     font-size: 120%;
@@ -258,6 +264,21 @@ p {
 }
 ul.footer li {
     padding: 18px;
+}
+
+.illustrations {
+    max-width: 263px;
+    margin: 0 auto;
+    width: 100%;
+    display: block;    
+}
+.dev-illustration {
+    max-width: 400px;
+    margin-left: -30px;   
+    margin: 0 auto;
+    width: 100%;
+    display: block;    
+
 }
 
 }
