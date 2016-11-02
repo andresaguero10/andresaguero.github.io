@@ -9,8 +9,9 @@
 
     <!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Anaheim|Raleway" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +24,7 @@
 	<!-- Navigation -->
 
 	<header id="home-top" class="nav-top">
-		<div class="container">
+		<div class="container">		
 			<div class="row">
 				<div class="col-md-4">
 					<img class="header-logo" src="http://seanhalpin.io/assets/img/content/home/hello/me.svg">
@@ -40,10 +41,9 @@
 			</div>
 		</div>
 	</header>
-
 	<!-- /Navigation -->
 	<!-- Main-Slider -->
-
+<section class="top">
 	<div class="main-wrap">
 		<div class="container">
 			<div class="row">
@@ -57,16 +57,28 @@
 		</div>
 	</div>
 
+	<div class="master-head">
+		<div class="transistion cloud left-cloud">
+		</div>
+		<div class="transistion cloud right-cloud">
+		</div>	
+	</div>
+	<div class="master-head">
+		<div id="earth">
+			<img src="assets/images/land.svg">
+		</div>
+	</div>		
+</section>
 	<!-- /Main-Slider -->
 	<!-- Bio -->
 	<div class="container">
-		<div class="col-md-12">
+		<div class="col-md-12 pt-3">
 			<article>
 				<figure>
 					<img src="http://seanhalpin.io/assets/img/content/home/hello/me.svg">
 				</figure>
-				<h2 class="text-xs-center">Hi</h2>
-				<p class="text-xs-center">
+				<h2 class="text-xs-center pt-3">Hi</h2>
+				<p class="text-xs-center pb-3">
 					I'm a web designer / developer based in Anaheim, CA. I have a passion for web design and love to create for web and mobile devices.
 				</p>
 		</div>
@@ -81,13 +93,13 @@
 				<div class="line">
 				</div>
 			</div>
-			<h2 class="text-xs-center">What I can do.</h2>
-			<div class="col-md-4 col-md-push-7">
+			<h1 class="text-xs-center py-3">What I can do.</h1>
+			<div class="offset-md-4 col-md-2">
 				<img class="illustrations" src="http://seanhalpin.io/assets/img/content/home/hello/me.svg">
 			</div>
 
-			<div class="col-md-6 col-md-pull-3">
-				<h2>Develop what you need.</h2>
+			<div class="col-md-4">
+				<h2>Design what you want.</h2>
 				<p>I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
 			</div>
 
@@ -95,12 +107,12 @@
 	</div>
 
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-md-pull-3">
+		<div class="row pt-2">
+			<div class="offset-md-2 col-md-4">
 				<h2>Develop what you need.</h2>
 				<p>I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
 			</div>
-			<div class="col-md-4 col-md-push-7">
+			<div class="col-md-3">
 				<img class="illustrations" src="http://seanhalpin.io/assets/img/content/home/what-i-do/me-dev.svg">
 			</div>
 		</div>
@@ -118,11 +130,11 @@
 				</div>
 			</div>
 			<div class="col-md-12">
-				<h2 class="text-xs-center">I can help.</h2>
+				<h1 class="text-xs-center py-3">I can help.</h1>
 
-				<h4 class="text-xs-center">I'm currently available for freelance work.</h3>
+				<h4 class="text-xs-center pb-2">I'm currently available for freelance work.</h4>
 
-				<div class="text-xs-center">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.
+				<div class="text-xs-center pb-2"><p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
 				</div>
 
 				<a class="btn btn-primary text-xs-center message-me" href="#" role="button">Message Me</a>
@@ -136,15 +148,18 @@
 
 	<!-- Footer Area -->
 
-	<footer>
+	<footer class="mt-3">
 		<div class="container">
-			<ul>
-				<li><a href="#">Github</a></li>
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Hire Me</a></li>
-			</ul>
-
-			<div class="text-xs-center">© 2016 Andres Aguero. All rights reserved.</div>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="footer clearfix">
+						<li><a href="#">Github</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Hire Me</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="text-xs-center pb-3">© 2016 Andres Aguero. All rights reserved.</div>
 		</div>
 	</footer>
 

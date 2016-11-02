@@ -1,12 +1,25 @@
 p {
-    font-family: 'GalanoClassic-ExtraLight', Verdana;
+    font-family: 'Anaheim', sans-serif;
+}
+
+body {
+    font-family: 'Anaheim', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'GalanoClassic-ExtraBold', Verdana;
+    font-family: 'Raleway', sans-serif;
     color:#431A94;
 }
 
+.btn-primary {
+    background-color: #431A94;
+    border-color: #431A94;
+}
+
+a{
+    color:#ba82c4;
+}
 .message-me {
 	width: 150px;
     margin: 0 auto;
@@ -20,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .illustrations {
-	width:75px;
+	max-width:170px;
 }
 
 
@@ -39,13 +52,12 @@ figure img {
 }
 
 .main-wrap {
-    background: #e0ebe8;
+    background: #e2e0eb;
     color: #545454;
     text-shadow: none;
 }
 
 .im-andres {
-    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     font-weight: 500;
     line-height: 1.1;
     text-align: center;
@@ -59,14 +71,13 @@ figure img {
     padding: 1em 0;
     font-size: 1.8em;
     font-weight: 400;
-    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
 
 .header-logo {
 	width:100px;
 }
 .nav-top {
-    background: #E0EBE8;
+    background: #e2e0eb;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: all .8s;
@@ -101,7 +112,80 @@ figure img {
 /* create a::hover for menu */
 
 
+/* CLOUDS & LAND */
+.top {
+    padding-top:0;
+    overflow: hidden;
+    background-color: #e2e0eb;
+}
+.master-head {
+    -webkit-animation: fadeIn .5s ease-in-out;
+    -moz-transition: fadeIn .5s ease-in-out;
+    -o-transition: fadeIn .5s ease-in-out;
+    transition: fadeIn .5s ease-in-out;
+}
+.cloud{
+    position: absolute;
+    background: url(../assets/images/cloud.svg) top left no-repeat;
+    width: 150px;
+    height: 45px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    z-index: 980;
+}
 
+.transition {
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.left-cloud {
+    left: -6em;
+    bottom: 2em;
+}
+
+.right-cloud {
+    right: -5em;
+    top: 0;
+}
+
+#earth {
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: #431A94;
+    color: #d3c5de;
+}
+ul.footer {
+    list-style: none;
+    margin:auto;
+    display: block; text-align:center;
+}
+
+ul.footer li {
+    padding: 44px;
+    display: inline-block;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 992px)
+{
+    .left-cloud {
+        left: 2em;
+        bottom: 5em;
+    }
+    .right-cloud {
+        right: 2em;
+        top: 6em;
+    }
+}
 
 
 
