@@ -172,11 +172,54 @@ font-family: 'Yellowtail', cursive;
     top: 0;
 }
 
+.left-cloud-work {
+    left: 0em;
+    bottom: 10em;
+}
+
+.right-cloud-work {
+    right: 0em;
+ top: 10em;
+
+}
+
 #earth {
     margin: 0 auto;
     max-width: 800px;
     overflow: hidden;
 }
+
+/*WORK*/
+.work-shots {
+    padding: 3.5em 0;
+    min-height:1000px;
+}
+.shot {
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 990;
+    text-align: center;
+}
+.shot-info {
+    padding: 2em 0 0;
+    margin: 0 auto;
+    max-width: 600px;   
+}
+
+#colts {
+    background-color:#7dcc93;
+    color:#fff;
+}
+
+#barca {
+    background-color:#f76160;
+    color:#fff;   
+}
+#goals {
+    background-color:#21364b;
+    color:#fff;   
+}
+
 
 /* FOOTER */
 footer {
@@ -218,6 +261,9 @@ ul.footer li {
     right: 0em;
     top: 10em;
     }
+.left-cloud-work {
+display:none;
+}    
 .top-nav {
     display:block;
 }
@@ -283,6 +329,7 @@ ul.footer li {
 }
 
 }
+
 
 
 
