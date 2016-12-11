@@ -10,10 +10,10 @@
     <!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+	    <!-- animsition.css -->
+	<link rel="stylesheet" href="js/animsition/animsition.min.css">    
 	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Anaheim|Raleway|Yellowtail" rel="stylesheet">
-
-
+	<link href="https://fonts.googleapis.com/css?family=Anaheim|Raleway|Yellowtail|Slabo+27px" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,19 +22,19 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body class="animsition">
 	<!-- Navigation -->
 
 	<header id="home-top" class="nav-top">
 		<div class="container">		
 			<div class="row">
 				<div class="col-md-4 col-xs-4">
-					<img class="header-logo" src="assets/images/me.svg">
+					<a href="index.html" class="animsition-link"><img class="header-logo" src="assets/images/me.svg"></a>
 				</div>
 				<div class="col-md-8 col-xs-8">
 					<nav class="top-nav">
 						<ul class="nav-list transition">
-							<li><a href="index.html">About</a></li>
+							<li><a href="index.html" class="animsition-link">About</a></li>
 							<li><a href="#">Work</a></li>
 							<li><a href="mailto:agueroandres94@gmail.com">Contact</a></li>
 						</ul>
@@ -93,7 +93,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="shot">
-						<img>
+						<img class="work" src="assets/images/work/goals-portfolio.jpg">
 					</div>
 					<div class="shot-info">
 						<h2>GOALS.ORG</h2>
@@ -101,7 +101,7 @@
 						<p>
 							Recently I worked with GOALS.org to redesign their current website and transform it into a new much more modern interface where they can upload and manage content.
 						</p>
-						<p class="main-btn">View Project</p>
+						<a href="http://www.goals.org" target="_blank"><p class="main-btn">View Project</p></a>
 			</div>
 		</div>
 	</section>
@@ -110,7 +110,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="shot">
-						<img>
+						<img class="work" src="assets/images/work/colts-portfolio.jpg">
 					</div>
 					<div class="shot-info">
 						<h2>Colts Landscape</h2>
@@ -118,7 +118,7 @@
 						<p>
 						Colts Landscape contacted me to give a refresh to their onsite business. I updated their colour palette for a more soothing and natural feel and changed their typography to better suit their brand nature.	
 						</p>
-						<p class="main-btn">View Project</p>
+						<a href="http://www.coltslandscapeinc.com" target="_blank"><p class="main-btn">View Project</p></a>
 
 			</div>
 		</div>
@@ -128,7 +128,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="shot">
-						<img>
+						<img class="work" src="assets/images/work/goals-academy-portfolio.jpg">
 					</div>
 					<div class="shot-info">
 						<h2>GOALS Academy</h2>
@@ -136,7 +136,7 @@
 						<p>
 							My job was to design and develop a custom wordpress theme for the first charter school in Anaheim, CA. 
 						</p>
-						<p class="main-btn">View Project</p>
+						<a href="http://www.goalsacademy.us" target="_blank"><p class="main-btn">View Project</p></a>
 
 			</div>
 		</div>
@@ -146,7 +146,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="shot">
-						<img>
+						<img class="work" src="assets/images/work/taekwondo-portfolio.png">
 					</div>
 					<div class="shot-info">
 						<h2>American National Tae Kwon Do</h2>
@@ -154,14 +154,33 @@
 						<p>
 							American National Tae Kwon Do focuses on teaching sound and effective Tae Kwon Do and self-defense techniques to each student state-wide.  
 						</p>
-						<p class="main-btn">View Project</p>
+						<a href="http://www.americataekwondo-sa.com" target="_blank"><p class="main-btn">View Project</p></a>
 
 			</div>
 		</div>
 	</section>	
 	<!-- /Main Content Area -->
 
+	<div class="container">
+		<div class="container-end">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="line">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<h1 class="text-xs-center py-3">I can help.</h1>
 
+				<h4 class="text-xs-center pb-2">I'm currently available for freelance work.</h4>
+
+				<div class="text-xs-center pb-2"><p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+				</div>
+
+				<a class="btn btn-primary text-xs-center message-me" href="mailto:agueroandres94@gmail.com" role="button">Message Me</a>
+			</div>
+		</div>
+	</div>
 
 	<!-- Footer Area -->
 
@@ -179,10 +198,16 @@
 			<div class="text-xs-center pb-3">© 2016 <span class="underline"><a href="http://aguerodesigns.com">Andres Aguero</a></span>. All rights reserved.</div>
 		</div>
 	</footer>
-
 	<!-- /Footer Area -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- animsition.js -->
+<script src="js/animsition/animsition.min.js"></script>
+<script src="js/app.js"></script>
+
+
 </body>
 </html>

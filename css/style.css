@@ -7,11 +7,6 @@ body {
 
 }
 
-a:hover {
-    color:#fff;
-    transition: .5s;
-    text-decoration: none;
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
@@ -30,6 +25,12 @@ h1, h2, h3, h4, h5, h6 {
 
 a{
     color:#ba82c4;
+    transition: all .3s ease-in-out;
+}
+
+a:hover {
+    color:#fff;
+    text-decoration: none;
 }
 
 .underline {
@@ -174,7 +175,7 @@ font-family: 'Yellowtail', cursive;
 
 .left-cloud-work {
     left: 0em;
-    bottom: 10em;
+    top: 26em;
 }
 
 .right-cloud-work {
@@ -190,6 +191,11 @@ font-family: 'Yellowtail', cursive;
 }
 
 /*WORK*/
+
+.work {
+    width:100%;
+}
+
 .work-shots {
     padding: 3.5em 0;
     min-height:1000px;
@@ -208,7 +214,9 @@ font-family: 'Yellowtail', cursive;
 }
 .shot-info h2 {
     color:#fff;
-    font-size: 2.2em;    
+    font-size: 2.2em;   
+    font-weight: 800;
+    letter-spacing: 1.5px;
 }
 
 .shot-info h3 {
@@ -221,10 +229,9 @@ font-family: 'Yellowtail', cursive;
     letter-spacing: 1px;
 }
 
-
-
 .shot-info p {
-    font-family: 'Georgia', sans-serif;
+    /*font-family: 'Georgia', sans-serif;*/
+    font-family: 'Slabo 27px', serif;
     font-size: 18.5px;
     line-height: 1.7;    
 
@@ -238,10 +245,37 @@ font-family: 'Yellowtail', cursive;
     padding: 6px 0;
     width: 168px;
     margin: 34px auto;
+    border-radius: 3px;
+    transition: 1s ease-in-out;
 }
 
+.main-btn:hover {
+    background: #192430;
+}
+
+
+#colts .main-btn {
+    background: #705837;
+}
+#colts .main-btn:hover {
+    background: #533f23;
+}
+#barca .main-btn {
+    background:#4299ed;
+}
+#barca .main-btn:hover {
+    background:#1680e6;
+}
+
+#taekwon .main-btn {
+    color: #8c6c07;
+    background: #fae298;
+}
+#taekwon .main-btn:hover {
+    background: #f8d467;
+}
 #colts {
-    background-color:#7dcc93;
+    background-color:#7c864a;
     color:#fff;
 }
 
@@ -264,7 +298,7 @@ font-family: 'Yellowtail', cursive;
 }
 
 #colts h3 {
-    color: #517a5c;
+    color: #533f23;
 }
 
 #barca h3 {
@@ -298,7 +332,7 @@ ul.footer li {
 @media (min-width: 992px){
     .left-cloud {
         left: 2em;
-        bottom: 5em;
+        top: 34em;
     }
     .right-cloud {
         right: 2em;
