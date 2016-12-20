@@ -135,6 +135,28 @@ font-family: 'Yellowtail', cursive;
 
 /* create a::hover for menu */
 
+/* WHAT I KNOW */
+.cms {
+    width: 80%;
+    margin: 0 auto;
+    /* vertical-align: bottom; */
+    display: block;    
+}
+
+.badges {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.TreehousePoints {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.language {
+    text-align: center;
+}
 
 /* CLOUDS & LAND */
 .top {
@@ -198,7 +220,7 @@ font-family: 'Yellowtail', cursive;
 
 .work-shots {
     padding: 3.5em 0;
-    min-height:1000px;
+    /*min-height:1000px;*/
 }
 .shot {
     max-width: 800px;
@@ -338,6 +360,40 @@ ul.footer li {
         right: 2em;
         top: 6em;
     }
+   .top-nav ul li a {
+    margin: 0 0 0 1em;
+    }
+
+ 
+}
+
+@media (max-width: 991px) { 
+
+    .badges {
+    width: 30%;
+    margin: 20px auto;
+}
+
+.cms {
+    width: 50%;
+    margin: 20px auto;
+}
+.top-nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 0 0 0 3em;
+    font-size: 100%;
+} 
+.right-cloud {
+    right: 0em;
+    top: 100px;
+}
+.left-cloud {
+    left: -6em;
+    top: 20em;
+}
+
 }
 
 @media (max-width: 544px) { 
@@ -415,6 +471,7 @@ ul.footer li {
     display: block;    
 
 }
+
 
 }
 
